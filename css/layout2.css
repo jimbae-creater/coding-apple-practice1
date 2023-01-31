@@ -1,0 +1,65 @@
+div {box-sizing: border-box;}
+
+body {margin: 0px;}
+
+
+
+.main-background {
+    width: 100%; height: 500px;
+    background-image: url(../imgs/shoes.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: brightness(50%); 배경만이 아니라 전방의 콘텐츠까지 시꺼매져서 비활성화함. */
+    padding: 1px;
+    position: relative;
+}
+
+.content-area {
+    position: absolute;
+    top: 120px; left: 80px;
+}
+
+.main-title {
+    color: #fff;
+    font-size: 40px;
+    margin: 0px;
+}
+ p{
+    font-size: 16px;
+    color: #fff;
+    margin: 12px 0px 0px 0px ;
+    line-height: 22px;
+ }
+
+.button-2 {
+    margin: 16px 0px 0px 0px;
+    padding: 12px 30px 12px 30px;
+    display:inline;
+    border: none;
+    border-radius: 999px;
+    font-weight: 700;
+    position: relative ;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+}
+
+.second-box {
+    width: 80%; height: 280px;
+    background-color: #333;
+    margin: auto;
+    position: relative;
+    top: -80px; /* left: 0; right: 0;
+    margin-left: auto; margin-right: auto; */
+    text-align: center;
+}
+
+.box-center{
+    width: 400px; height: fit-content;
+    margin: auto;
+    position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+    margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;
+
+}
