@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'SUIT Variable';
+    font-weight: 100 900;
+    src: url('./SUIT-Variable.woff2') format('woff2-variations');
+}
+
+body {
+    background-color: skyblue;
+    font-family: suit;
+}
+
+.header {
+    width: 100%;
+    height: 56px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.header-menu {
+    color: #fff;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 840px;
+    width: 80%;
+    position: relative;
+    top: 160px;
+    margin: auto;
+}
+
+.table-container {
+    border-radius: 16px;
+    background-color: #fff
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+th {
+    min-width: 88px;
+    padding: 12px 24px 12px 24px;
+}
+
+tbody {
+    border-top: 1px;
+}
+
+td {
+    padding: 4px 24px 4px 24px;
+}
+
+td>p {
+    color: #888;
+    font-size: 20px;
+    text-align: right;
+}
+
+td>span {
+    color: navy;
+    font-size: 20px;
+    text-align: right;
+    display: block;
+}
+
+tbody>tr {
+    border-top: 2px solid skyblue;
+    box-sizing: border-box;
+
+}
+
+.item-cell>img {
+    width: 120px;
+    vertical-align: middle;
+}
+
+.item-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item-info>p {
+    margin: 4px 0px 0px 0px;
+    color: #888;
+    font-size: 20px;
+}
+
+.item-info>h5 {
+    margin: 0;
+    color: #222;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.totalprice {
+    font-size: 32px;
+    color: navy;
+    text-align: right;
+    height: 80px;
+}
+
+.footer-contaniner {
+    position: relative;
+    top: 24px;
+    vertical-align: middle;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.paybtn {
+    padding: 24px 24px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.paybtn:hover {
+    background-color: aqua;
+}
+
+.paybtn:active {
+    background-color: #666;
+}
+
+.paybtn:focus {
+    background-color: #222;
+}

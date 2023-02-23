@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'SUIT Variable';
+    font-weight: 100 900;
+    src: url('./SUIT-Variable.woff2') format('woff2-variations');
+    transform : rotate(0.04deg);
+}
+
+body {
+    font-family: suit;
+    justify-content: center; 
+    align-items: center;
+}
+
+.container {
+    background-color: #333;
+    width: 1024px;
+    height: 240px;
+    display: flex;
+    border-radius: 16px;
+    position: relative;
+    top: 240px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.box {
+    background-color: #444;
+    box-sizing: border-box;
+    width:500px;
+    margin: 12px;
+    border-radius: 8px;
+    text-align: center;
+    /* display: flex;
+    align-items: center; */
+    padding: 16px;
+}
+
+.box h5 {
+    color: #ddd;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.box p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.box i {
+    height: 72px;
+    width: 72px;
+    padding-top: 20px;
+    background-color: teal;
+    border-radius: 999px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    font-size: 32px;
+    color: rgb(255, 221, 208);
+}
+
+/*  */
+
+.shop-bg {
+    background-color: #eee;
+    padding: 12px;
+    max-width: 1024px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    top: 300px;
+  }
+  .shop-container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+  .shop-item {
+    width: 33%;
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .overlay-wrap {
+    position: absolute;
+    width: 100%; height: 100%;
+    overflow: hidden;
+  }
+  .overlay {
+    position: absolute;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    transition: top 0.6s;
+    padding: 16px;
+    color: #fff;
+  }
+
+  .overlay-wrap:hover>div{
+    position: absolute;
+    top: 50%;
+}
+
+  .shop-item img {
+    width: 100%;
+    display: block;
+  }
+
+@media screen and (max-width : 1200px) {
+    .container {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width : 768px) {
+    .container {
+        width: 100%;
+      }
+  }
